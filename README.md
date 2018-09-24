@@ -8,7 +8,7 @@
 # AndoidAboutUs
 
 
-This is an [**Android Us**](https://developer.android.com) project. You can buid your own about us screen using this library to make build easily.
+This is an [**Android About Us**](https://developer.android.com) project. You can buid your own about us screen using this library to make build easily.
 
 </br>
 
