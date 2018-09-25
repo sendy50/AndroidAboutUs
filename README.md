@@ -93,7 +93,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 
 # Credit 
-([jrvansuita/](https://github.com/jrvansuita/MaterialAbout))
+([Júnior Vansuita](https://github.com/jrvansuita/MaterialAbout))
 
 
 
