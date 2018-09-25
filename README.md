@@ -38,7 +38,7 @@ allprojects {
 }
 ```
 
-#### Step #2. Add the dependency ([See latest release](https://jitpack.io/#jrvansuita/MaterialAbout)).
+#### Step #2. Add the dependency ([See latest release](https://jitpack.io/#techhuntdevelopers/AndroidAboutUs)).
 
 ```groovy
 dependencies {
@@ -92,55 +92,9 @@ protected void onCreate(Bundle savedInstanceState) {
 ```
 
 
-# Additional
+# Credit 
+([jrvansuita/](https://github.com/jrvansuita/MaterialAbout))
 
-### Getting the list of actions or links from AboutBuilder.
-
-```java
-AboutBuilder aboutBuilder = AboutBuilder.with(this);
-
-List<Item> actions = aboutBuilder.getActions();
-List<Item> links = aboutBuilder.getActions();
-```
-
-
-#### Getting the view instance of any action or link from AboutView?
-
-```java
-AboutView view = AboutBuilder.with(this)
-                 ...
-                 .build();
-
-View lastLinkView = view.findItem(builder.getLastLink());
-View lastActionView = view.findItem(builder.getLastAction());
-```
-
-<!--# Used libraries
-
-* [com.android.support:appcompat-v7](https://developer.android.com/topic/libraries/support-library/packages.html#v7-appcompat)
-* [com.android.support:cardview-v7](https://developer.android.com/topic/libraries/support-library/packages.html#v7-cardview)
-* [com.github.jrvansuita:IconHandler](https://github.com/jrvansuita/IconHandler)
-
-#
-
-<a href="https://plus.google.com/+JuniorVansuita" target="_blank">
-  <img src="https://s20.postimg.org/59xees8vt/google_plus.png" alt="Google+" witdh="44" height="44" hspace="10">
-</a>
-<a href="https://www.linkedin.com/in/arleu-cezar-vansuita-júnior-83769271" target="_blank">
-  <img src="https://s20.postimg.org/vxoeax4ah/linkedin.png" alt="LinkedIn" witdh="44" height="44" hspace="10">
-</a>
-<a href="https://www.instagram.com/jnrvans/" target="_blank">
-  <img src="https://s20.postimg.org/lyyuap5h5/instagram.png" alt="Instagram" witdh="44" height="44" hspace="10">
-</a>
-<a href="https://github.com/jrvansuita" target="_blank">
-  <img src="https://s20.postimg.org/jf37glhx5/github.png" alt="Github" witdh="44" height="44" hspace="10">
-</a>
-<a href="https://play.google.com/store/apps/dev?id=8002078663318221363" target="_blank">
-  <img src="https://s20.postimg.org/5iuz4plo9/android.png" alt="Google Play Store" witdh="44" height="44" hspace="10">
-</a>
-<a href="mailto:vansuita.jr@gmail.com" target="_blank" >
-  <img src="https://s20.postimg.org/slli3vn5l/email.png" alt="E-mail" witdh="44" height="44" hspace="10">
-</a>-->
 
 
 
